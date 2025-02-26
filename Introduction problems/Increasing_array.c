@@ -8,6 +8,7 @@ int main()
 	size_t temp, count = 0;
 
 	scanf("%ld", &n);
+	if (n >= 1 && n <= (2 * pow(10, 5)))
 	{
 		for (size_t i = 0; i < n; i++)
 		{
